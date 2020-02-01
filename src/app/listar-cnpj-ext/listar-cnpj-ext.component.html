@@ -1,0 +1,116 @@
+<table>
+  <div *ngFor="let cnpj of listacnpjext">
+    <tr>
+      <td><h3>cdEmpresa</h3></td>
+    </tr>
+     <tr>
+       <td>cdEmpresa</td>
+       <td>{{cnpj.cdEmpresa}}</td>
+     </tr>
+     <tr>
+       <td>cnpj</td>
+       <td>{{cnpj.cnpj}}</td>
+     </tr>
+     <tr>
+       <td>nrIe</td>
+       <td>{{cnpj.nrIe}}</td>
+     </tr>
+     <tr>
+       <td>razaoSocial</td>
+       <td>{{cnpj.razaoSocial}}</td>
+     </tr>
+     <tr>
+       <td>nomeFantasia</td>
+       <td>{{cnpj.nomeFantasia}}</td>
+     </tr>
+     <tr>
+       <td>tipoRecolhimento</td>
+       <td>{{cnpj.tipoRecolhimento}}</td>
+     </tr>
+     <tr>
+       <td>situacaoCadastral</td>
+       <td>{{cnpj.situacaoCadastral}}</td>
+     </tr>
+     <tr>
+       <td>isNfe</td>
+       <td>{{cnpj.isNfe}}</td>
+     </tr>
+     <tr>
+       <td>dtInicio</td>
+       <td>{{cnpj.dtInicio}}</td>
+     </tr>
+     <tr>
+       <td>dtPrimeiraNFe</td>
+       <td>{{cnpj.dtPrimeiraNFe}}</td>
+     </tr>
+     <tr>
+       <td>isEFD</td>
+       <td>{{cnpj.isEFD}}</td>
+     </tr>
+     <tr>
+       <td>dtObrigatoriedadeEFD</td>
+       <td>{{cnpj.dtObrigatoriedadeEFD}}</td>
+     </tr>
+     <tr>
+       <td><h3>enderecos</h3></td>
+     </tr>
+       <div *ngFor="let e of cnpj.enderecos">
+          <tr>
+            <td>tipoEndereco</td>
+            <td>{{e.tipoEndereco}}</td>
+          </tr>
+          <tr>
+            <td>tipoLogradouro</td>
+            <td>{{e.tipoLogradouro}}</td>
+          </tr>
+          <tr>
+            <td>numero</td>
+            <td>{{e.numero}}</td>
+          </tr>
+          <tr>
+            <td>complemento</td>
+            <td>{{e.complemento}}</td>
+          </tr>
+          <tr>
+            <td>bairro</td>
+            <td>{{e.bairro}}</td>
+          </tr>
+          <tr>
+            <td>municipio</td>
+            <td>{{e.municipio}}</td>
+          </tr>
+          <tr>
+            <td>uf</td>
+            <td>{{e.uf}}</td>
+          </tr>
+          <tr>
+            <td>pais</td>
+            <td>{{e.pais}}</td>
+          </tr>
+          <tr>
+            <td>dtInicio</td>
+            <td>{{e.dtInicio}}</td>
+          </tr>
+          <tr>
+            <td>dtFim</td>
+            <td>{{e.dtFim}}</td>
+          </tr>
+
+</div>
+
+<tr>
+  <td><h3>Cnaes</h3></td>
+</tr>
+  <div *ngFor="let c of cnpj.cnaes">
+     <tr>
+       <td>codigo</td>
+       <td>{{c.codigo}}</td>
+     </tr>
+     <tr>
+       <td>descricao</td>
+       <td>{{c.descricao}}</td>
+     </tr>
+</div>
+
+ </div>
+ </table>
