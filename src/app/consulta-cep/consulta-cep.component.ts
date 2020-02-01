@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConsultaCepService } from '../consulta-cep.service';
 
 @Component({
   selector: 'app-consulta-cep',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsultaCepComponent implements OnInit {
 
-  constructor() { }
+  consultacep: Array<any>;
+
+  constructor(private buscacep: ConsultaCepService) { }
 
   ngOnInit() {
+    this.consultarcep();
   }
 
+  consultarcep() {
+    console.log('Consultando dados no Correio');
+    return this.buscacep.consultarcep().subscribe(dados => this.consultacep = [dados]);
+  }
+
+//teste
 }

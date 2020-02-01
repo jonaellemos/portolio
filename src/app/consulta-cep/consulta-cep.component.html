@@ -1,1 +1,42 @@
-<p>consulta-cep works!</p>
+<p>{{loading}}</p>
+
+<table class='table'>
+  <div *ngFor="let c of consultacep">
+  <tr>
+  <td scope='col'>cep</td>
+  <td>{{c.cep}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>logradouro</td>
+    <td>{{c.logradouro}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>complemento</td>
+    <td>{{c.complemento}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>bairro</td>
+    <td>{{c.bairro}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>localidade</td>
+    <td>{{c.localidade}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>uf</td>
+    <td>{{c.uf}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>unidade</td>
+    <td>{{c.unidade}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>ibge</td>
+    <td>{{c.ibge}}</td>
+  </tr>
+  <tr>
+    <td scope='col'>gia</td>
+    <td>{{c.gia}}</td>
+  </tr>
+</div>
+</table>

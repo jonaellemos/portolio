@@ -52,6 +52,7 @@ export class ListarCnpjExtComponent implements OnInit {
   // }];
 
   listacnpjext: Array<any>;
+  loading = 'Carregando';
 
   constructor(private listarcnpjext: ListarCnpjExtService){ }
 
@@ -60,7 +61,10 @@ export class ListarCnpjExtComponent implements OnInit {
   }
 
   listar() {
-    this.listarcnpjext.listar().subscribe(dados => this.listacnpjext = [dados]);
+    console.log('Consultando dados na Sefaz');
+    this.listarcnpjext.listar().subscribe(
+      dados => this.listacnpjext = [dados],
+      error => console.log('Erro ao recuperar dados'));
   }
 
 }
