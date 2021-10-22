@@ -1,27 +1,48 @@
-# Portfolio
+<h4 align="center">
+ 
+![c633c20ede82f0e0ced7d570dbe3a1f3](https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+<hr>
 
-## Development server
+[![Github Badge](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=Facebook&logoColor=white&link=https://github.com/arthurspk)](https://www.facebook.com/seixasqlc/)
+[![Instagram Badge](https://img.shields.io/badge/-instagram-red?style=for-the-badge&logo=instagram&logoColor=white&link=https://github.com/arthurspk)](https://www.instagram.com/arthurspk/)
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://github.com/arthurspk)](https://www.linkedin.com/in/arthurspk/)
+[![Spotify Badge](https://img.shields.io/badge/-Spotify-3bb34b?style=for-the-badge&logo=Spotify&logoColor=161f16&link=https://github.com/arthurspk)](https://open.spotify.com/user/Heimdallr0?fbclid=IwAR0vLf9kXegU7iZNCy3IJ1S6vb3sJ6CRRXelpW5tDOG5trSUGZ8SK4-Yjfg)
+</h4>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<h3 align="center">  <br>
 
-## Code scaffolding
+Olá, eu sou o Arthur! 🇧🇷
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+</h3>
 
-## Build
+```
+Estudante de Ciência da Computação pela UNIT - Centro Universitário Tiradentes, 
+sou fascinado por computação desde criança e atualmente tenho me dedicado a me tornar um dev fullstack.
+```
+## Tecnologias que estou estudando atualmente 💻
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  - HTML
+  - CSS
+  - JavaScript
+  - React
+  - Java
+  - MongoDB
+  - MySQL
 
-## Running unit tests
+## Alguns fatos sobre mim 👨🏻‍💻
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Eu tenho uma comunidade chamada Guia Dev Brasil que ajuda pessoas na área de computação. [:link:](https://linktr.ee/guiadevbrasil)
+- Tenho um repositório para ajudar e guiar pessoas na sua trilha de desenvolvimento.  [:link:](https://github.com/arthurspk/guiadevbrasil)
 
-## Running end-to-end tests
+- Adoro conhecer coisas novas, trabalhar em grupo e obter novas experiências, almejo trabalhar fora do Brasil, para melhorar meu Inglês e conhecer novas culturas, pessoas e ter novas experiências. 😄
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Estou cursando Ciência da Computação. 💻
 
-## Further help
+## Meu Linktree [:link:](https://linktr.ee/arthurspk)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Meus dados no Github
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jonaellemos&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jonaellemos&layout=compact&theme=tokyonight)](https://github.com/arthurspk)
+![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
